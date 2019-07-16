@@ -7,20 +7,148 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="/dist/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 
 <body>
+    <div class="navbar">
+        <h1 class="titleWedge">Wedge</h1>
+        <ul>
+            <li><a class="active" href="#home">Whats in my fridge?</a></li>
+            <li><a href="#news">Random Drink</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
     <div class="container">
-        <div class="searchNavbar">hello</div>
+
+        <div class="searchNavbar">
+            <div class="ingredientSection">
+                <h3 class="searchTitles">Ingredients</h3>
+                <div class="searchbar">
+                    <form class="search">
+                        <input type="text" class="search__field" placeholder="Search Cocktails">
+                        <button class="iconSearch" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="ingredientChips">
+                    <div class="chip">
+                        <button class="ingredientChip chipButton">
+                            <p class="chipTitle">lime</p>
+                        </button>
+                    </div>
+                    <div class="chip">
+                        <button class="ingredientChip chipButton">
+                            <p class="chipTitle">lime</p>
+                        </button>
+                    </div>
+                    <div class="chip">
+                        <button class="ingredientChip  chipButton">
+                            <p class="chipTitle">lime</p>
+                        </button>
+                    </div>
+                    <div class="chip">
+                        <button class="ingredientChip chipButton">
+                            <p class="chipTitle">lime</p>
+                        </button>
+                    </div>
+                    <div class="chip">
+                        <button class="ingredientChip chipButton">
+                            <p class="chipTitle">lime</p>
+                        </button>
+                    </div>
+                    <div class="chip">
+                        <button class="ingredientChip chipButton">
+                            <p class="chipTitle">lime</p>
+                        </button>
+                    </div>
+                    <div class="chip">
+                        <button class="ingredientChip chipButton">
+                            <p class="chipTitle">lime</p>
+                        </button>
+                    </div>
+                    <div class="chip">
+                        <button class="ingredientChip chipButton">
+                            <p class="chipTitle">lime</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="alcoholIngredients">
+                    <h3 class="searchTitles">Alcohol</h3>
+                    <div class="searchbar">
+                        <form class="search">
+                            <input type="text" class="search__field" placeholder="Search Cocktails">
+                            <button class="iconSearch" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="ingredientChips">
+                        <div class="chip">
+                            <button class="alcoholChip chipButton">
+                                <p class="chipTitle">lime</p>
+                            </button>
+                        </div>
+                        <div class="chip">
+                            <button class="alcoholChip chipButton">
+                                <p class="chipTitle">lime</p>
+                            </button>
+                        </div>
+                        <div class="chip">
+                            <button class="alcoholChip chipButton">
+                                <p class="chipTitle">lime</p>
+                            </button>
+                        </div>
+                        <div class="chip">
+                            <button class="alcoholChip chipButton">
+                                <p class="chipTitle">lime</p>
+                            </button>
+                        </div>
+                        <div class="chip">
+                            <button class="alcoholChip chipButton">
+                                <p class="chipTitle">lime</p>
+                            </button>
+                        </div>
+                        <div class="chip">
+                            <button class="alcoholChip chipButton">
+                                <p class="chipTitle">lime</p>
+                            </button>
+                        </div>
+                        <div class="chip">
+                            <button class="alcoholChip chipButton">
+                                <p class="chipTitle">lime</p>
+                            </button>
+                        </div>
+                        <div class="chip">
+                            <button class="alcoholChip chipButton">
+                                <p class="chipTitle">lime</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="alcoholOption">
+                    <h3 class="searchTitles">Alcoholic Or Not?</h3>
+                </div>
+            </div>
+
+            
+       
 
         <div class="cocktailResults">
-            <form class="search">
-                <input type="text" class="search__field" placeholder="Search Cocktails">
-            </form>
+            <div class="searchbar">
+                <form class="search">
+                    <input type="text" class="search__field" placeholder="Search Cocktails">
+                    <button class="iconSearch" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
             <div class="cocktailMenu">
                 <div class="cocktailItem card">
-                    <img src="dist/images/drinkThumbnail.jpg">
+                    <div class="image">
+                        <img src="dist/images/drinkThumbnail.jpg">
+
+                    </div>
                     <div class="card-body">
                         <h3 class="title">VODKA MARTINI</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -29,7 +157,8 @@
                     </div>
                 </div>
                 <div class="cocktailItem card">
-                    <img src="dist/images/drinkThumbnail.jpg">
+
+                    <div class="image"><img src="dist/images/drinkThumbnail.jpg"></div>
                     <div class="card-body">
                         <h3 class="title">VODKA MARTINI</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -39,7 +168,8 @@
                     </div>
                 </div>
                 <div class="cocktailItem card">
-                    <img src="dist/images/drinkThumbnail.jpg">
+
+                    <div class="image"><img src="dist/images/drinkThumbnail.jpg"></div>
                     <div class="card-body">
                         <h3 class="title">VODKA MARTINI</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -49,7 +179,8 @@
                     </div>
                 </div>
                 <div class="cocktailItem card">
-                    <img src="dist/images/drinkThumbnail.jpg">
+
+                    <div class="image"><img src="dist/images/drinkThumbnail.jpg"></div>
                     <div class="card-body">
                         <h3 class="title">VODKA MARTINI</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -59,7 +190,8 @@
                     </div>
                 </div>
                 <div class="cocktailItem card">
-                    <img src="dist/images/drinkThumbnail.jpg">
+
+                    <div class="image"><img src="dist/images/drinkThumbnail.jpg"></div>
                     <div class="card-body">
                         <h3 class="title">VODKA MARTINI</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -69,7 +201,8 @@
                     </div>
                 </div>
                 <div class="cocktailItem card">
-                    <img src="dist/images/drinkThumbnail.jpg">
+
+                    <div class="image"><img src="dist/images/drinkThumbnail.jpg"></div>
                     <div class="card-body">
                         <h3 class="title">VODKA MARTINI</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -85,7 +218,7 @@
 
 
     </div>
-    </div>
+
 </body>
 
 </html>
